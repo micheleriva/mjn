@@ -24,7 +24,7 @@ Simple pseudo-monoid to check if a key or a value exists in an object.
   <a href="https://bundlephobia.com/result?p=mjn@latest">
     <img src="https://img.shields.io/bundlephobia/minzip/mjn.svg?style=for-the-badge" />
   </a>
-  <a href="">
+  <a href="https://beerpay.io/micheleriva/mjn">
     <img src="https://img.shields.io/beerpay/micheleriva/mjn.svg?style=for-the-badge" />
   </a>
 </p>
