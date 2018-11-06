@@ -151,6 +151,11 @@ ReactDOM.render(<App />, rootElement);
 [![Vue Example](/docs/vue.png)](https://codesandbox.io/s/6j7438n7rr?module=%2Fsrc%2Fcomponents%2FHelloWorld.vue)
 [![Edit Vue Template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/6j7438n7rr?module=%2Fsrc%2Fcomponents%2FHelloWorld.vue)
 
+### Vanilla JS
+
+[![Vanilla JS](/docs/vanillajs.png)](https://codesandbox.io/s/30w08xl6wq?module=%2Fsrc%2Findex.js)
+[![Vanilla JS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/30w08xl6wq?module=%2Fsrc%2Findex.js)
+
 # License
 
 [MIT](/LICENSE.md)
