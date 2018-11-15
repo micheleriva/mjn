@@ -79,7 +79,7 @@ const myObject = {
 };
 
 const a = maybe(myObject, "user.name"); // => John
-const b = maybe(myObject, "languages[1]"); // => italian
+const b = maybe(myObject, "user.languages[1]"); // => italian
 const c = maybe(myObject, "foo.bar.baz"); // => undefined
 
 if (a) {
