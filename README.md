@@ -14,6 +14,7 @@ Simple pseudo-monad to check if a key or a value exists in an object.
   <a href="https://codeclimate.com/github/micheleriva/mjn">
     <img src="https://img.shields.io/codeclimate/maintainability/micheleriva/mjn.svg?style=for-the-badge" alt="Maintainability">
   </a>
+  <br />
   <a href="https://github.com/prettier/prettier">
      <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge" />
   </a>
