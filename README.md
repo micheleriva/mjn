@@ -1,7 +1,7 @@
 <h1 align="center"> ⚡️ MJN ⚡️ </h1>
 
 <h6 align="center">
-Simple pseudo-monad to check if a key or avalue exists in an object.
+Simple pseudo-monad to check if a key or a value exists in an object.
 </h6>
 
 <p align="center">
