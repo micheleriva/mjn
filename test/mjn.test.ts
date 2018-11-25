@@ -130,4 +130,5 @@ test("Testing MJN fallbacks", () => {
   expect(mjn(nestedArrays, "[1][2][3][9]", fallback())).toBe(2);
   expect(mjn(nestedArrays, "[1][2][3][9]", fallback() + 2)).toBe(4);
   expect(mjn(nestedArrays, "[1][2][3][9]", fallback() * fallback())).toBe(4);
+  expect(mjn(nestedArrays, "[1][2][3][9]", (a = 3) => a * 2)).toBe(6);
 });
