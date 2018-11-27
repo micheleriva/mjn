@@ -74,3 +74,24 @@ test("Testing MJN on a complex object", () => {
     mjn(ComplexObject, "nested.object.with.arrays[3].a[0]")
   ).toBeUndefined();
 });
+
+const nestedArrays = [
+  [1, 2, 3, 4],
+  ["foo", "bar", "baz"],
+  [[0], [1], [10, 100, 1000]],
+  [[[[[[[9]]]]]]]
+];
+
+test("Testing MJN on nestedArrays", () => {
+  expect(mjn(nestedArrays, "[0][0]")).toBe(1);
+  expect(mjn(nestedArrays, "[0][1]")).toBe(2);
+  expect(mjn(nestedArrays, "[1][1]")).toBe("bar");
+  expect(mjn(nestedArrays, "[1][2]")).toBe("baz");
+  expect(mjn(nestedArrays, "[2][0][0]")).toBe(0);
+  expect(mjn(nestedArrays, "[2][1][0]")).toBe(1);
+  expect(mjn(nestedArrays, "[2][2][2]")).toBe(1000);
+  expect(mjn(nestedArrays, "[3][0][0][0][0][0][0][0]")).toBe(9);
+  expect(mjn(nestedArrays, "[3][0][0][0][0][0][0][1]")).toBeUndefined();
+  expect(mjn(nestedArrays, "[3][0][0][1][0][0][0][0]")).toBeUndefined();
+  expect(mjn(nestedArrays, "[4]")).toBeUndefined();
+});
