@@ -95,3 +95,14 @@ test("Testing MJN on nestedArrays", () => {
   expect(mjn(nestedArrays, "[3][0][0][1][0][0][0][0]")).toBeUndefined();
   expect(mjn(nestedArrays, "[4]")).toBeUndefined();
 });
+
+test("Testing MJN on non object/array types", () => {
+  expect(mjn("foo", "[0]")).toBeUndefined();
+  expect(mjn("foo", "[4][2]")).toBeUndefined();
+  expect(mjn("2", "key.key2")).toBeUndefined();
+  expect(mjn(423, "[1]")).toBeUndefined();
+  expect(mjn(423, "k.s")).toBeUndefined();
+  expect(mjn("foo", "a.b")).toBeUndefined();
+  expect(mjn("[2345, 123]", "[1]")).toBeUndefined();
+  expect(mjn("{a: 2}", "a")).toBeUndefined();
+});
