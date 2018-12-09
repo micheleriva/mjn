@@ -1,7 +1,7 @@
 {
   "name": "mjn",
-  "version": "0.0.7",
-  "description": "Simple pseudo-monad to check if a value exists in an object",
+  "version": "0.1.0",
+  "description": "Simple pseudo-monad to check if a key or avalue exists in an object.",
   "main": "./dist/dist.js",
   "author": "Michele Riva <ciao@micheleriva.it>",
   "maintainers": [
