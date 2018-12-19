@@ -1,0 +1,78 @@
+{
+  "name": "mjn",
+  "version": "0.0.5",
+  "description": "Simple pseudo-monad to check if a value exists in an object",
+  "main": "./dist/dist.js",
+  "author": "Michele Riva <ciao@micheleriva.it>",
+  "maintainers": [
+    {
+      "email": "ciao@micheleriva.it",
+      "name": "Michele Riva",
+      "url": "https://github.com/micheleriva"
+    }
+  ],
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micheleriva/mjn"
+  },
+  "bugs": {
+    "url": "https://github.com/micheleriva/mjn/issues"
+  },
+  "keywords": [
+    "monad",
+    "undefined behaviour",
+    "exception handler",
+    "object"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint ./main.ts",
+    "prettier-watch": "onchange '**/*.ts' -- prettier --write {{changed}}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "23.1.1",
+    "eslint": "5.10.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "husky": "1.3.0",
+    "jest": "23.1.0",
+    "lint-staged": "8.1.0",
+    "onchange": "5.2.0",
+    "prettier": "^.15.3",
+    "rollup-plugin-typescript": "0.8.1",
+    "rollup-plugin-uglify": "4.0.0",
+    "rollup-watch": "4.3.1",
+    "ts-jest": "22.4.6",
+    "typescript": "3.1.1",
+    "typescript-eslint-parser": "21.0.2"
+  }
+}
