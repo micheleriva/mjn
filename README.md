@@ -6,16 +6,16 @@ Simple pseudo-monad to check if a value exists in an object.
 
 <p align="center">
   <a href="https://travis-ci.org/micheleriva/mjn">
-    <img src="https://img.shields.io/travis-ci/micheleriva/mjn.svg?style=flat-square" alt="Build Status" />
+    <img src="https://img.shields.io/travis-ci/micheleriva/mjn.svg?style=for-the-badge" alt="Build Status" />
   </a>
   <a href="https://codecov.io/gh/micheleriva/mjn">
-    <img src="https://img.shields.io/codecov/c/github/micheleriva/mjn.svg?style=flat-square" alt="Coverage" />
+    <img src="https://img.shields.io/codecov/c/github/micheleriva/mjn.svg?style=for-the-badge" alt="Coverage" />
   </a>
   <a href="https://github.com/prettier/prettier">
-     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" />
+     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge" />
   </a>
-  <a href="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square">
-    <img src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square" alt="Blazing Fast" />
+  <a href="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=for-the-badge">
+    <img src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=for-the-badge" alt="Blazing Fast" />
   </a>
   <a href="https://bundlephobia.com/result?p=mjn@latest">
     <img src="https://img.shields.io/bundlephobia/minzip/mjn.svg?style=flat-square" />
