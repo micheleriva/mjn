@@ -78,7 +78,7 @@ if (c) {
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import Nil from "epk-nil";
+import mjn from "mjn";
 
 const user = {
   name: {
@@ -93,11 +93,11 @@ const user = {
 
 const App = () => (
   <div className="App">
-    <h1>Hello {Nil(user, "name.first_name")}!</h1>
-    <h2> {Nil(user, "contacts.email")} </h2>
+    <h1>Hello {mjn(user, "name.first_name")}!</h1>
+    <h2> {mjn(user, "contacts.email")} </h2>
 
     <p>
-      {Nil(user, "contacts.phone.office") || "You don't have an office phone."}
+      {mjn(user, "contacts.phone.office") || "You don't have an office phone."}
     </p>
   </div>
 );
