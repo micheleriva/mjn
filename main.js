@@ -27,5 +27,4 @@ function mjn(obj, path) {
         return Nothing();
     }
 }
-;
 exports["default"] = mjn;
