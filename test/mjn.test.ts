@@ -1,6 +1,6 @@
 import mjn from "../main";
 
-const SimpleObj = {
+const SimpleObj: object = {
   id: 29002,
   name: {
     first: "John",
