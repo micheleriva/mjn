@@ -10,12 +10,11 @@
 
 # Index
 
-[Installation](#installation)
-[Usage](#usage)
-
-- [Simple Example](#simple-example)
-- [Real World React Example](#real-world-react-example)
-  [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Simple Example](#simple-example)
+  - [Real World React Example](#real-world-react-example)
+- [License](#license)
 
 # Installation
 
