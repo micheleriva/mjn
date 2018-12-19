@@ -26,6 +26,8 @@ Simple pseudo-monad to check if a value exists in an object.
   <img src="/docs/mjn.png" align="center" style="max-width:80%;" />
 </div>
 
+<br /><br />
+
 > No `cannot get property x of undefined`. Just returns `void 0` (undefined) if a value or a key does not exist. Highly inspired from Java's Optional Type.
 
 # Index
