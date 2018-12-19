@@ -41,7 +41,7 @@ npm install --save mjn
 ### Simple Example
 
 ```js
-import mjn from "mjn"; // Or import the library as you wish using npm or CDN script tag!
+import maybe from "mjn"; // Or import the library as you wish using npm or CDN script tag!
 
 const myObject = {
   user: {
@@ -56,9 +56,9 @@ const myObject = {
   }
 };
 
-const a = mjn(myObject, "user.name"); // => John
-const b = mjn(myObject, "languages[1]"); // => italian
-const c = mjn(myObject, "foo.bar.baz"); // => undefined
+const a = maybe(myObject, "user.name"); // => John
+const b = maybe(myObject, "languages[1]"); // => italian
+const c = maybe(myObject, "foo.bar.baz"); // => undefined
 
 if (a) {
   console.log(a); // => John
@@ -78,7 +78,7 @@ if (c) {
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import mjn from "mjn";
+import maybe from "mjn";
 
 const user = {
   name: {
@@ -93,11 +93,12 @@ const user = {
 
 const App = () => (
   <div className="App">
-    <h1>Hello {mjn(user, "name.first_name")}!</h1>
-    <h2> {mjn(user, "contacts.email")} </h2>
+    <h1>Hello {maybe(user, "name.first_name")}!</h1>
+    <h2> {maybe(user, "contacts.email")} </h2>
 
     <p>
-      {mjn(user, "contacts.phone.office") || "You don't have an office phone."}
+      {maybe(user, "contacts.phone.office") ||
+        "You don't have an office phone."}
     </p>
   </div>
 );
