@@ -54,7 +54,9 @@
       "js",
       "json",
       "node"
-    ]
+    ],
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "devDependencies": {
     "@types/jest": "23.1.1",
