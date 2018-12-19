@@ -1,4 +1,4 @@
-# ⚡️ MJN
+<h1 style="text-align:center"> ⚡️ MJN </h1>
 
 > Simple pseudo-monad to check if a value exists in an object.
 
@@ -8,13 +8,11 @@
 [![blazing fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)
 [![Library size](https://img.shields.io/bundlephobia/minzip/mjn.svg?style=flat-square)](https://bundlephobia.com/result?p=mjn@latest)
 
-<div style="text-align:center">
+<div style="text-align:center;margin-bottom:15px;">
   <img src="/docs/mjn.png" align="center" style="max-width:80%;" />
 </div>
 
-<p>
-No `cannot get property x of undefined`. Just returns `void 0` (undefined) if a value or a key does not exist. Highly inspired from Java's Optional Type.
-</p>
+> No `cannot get property x of undefined`. Just returns `void 0` (undefined) if a value or a key does not exist. Highly inspired from Java's Optional Type.
 
 # Index
 
