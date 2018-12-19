@@ -3,7 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=node,visualstudiocode
 
 main.js
-test/main.test.js
+test/mjn.test.js
 
 ### Node ###
 # Logs
