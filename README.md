@@ -6,6 +6,16 @@
 [![Coverage](https://img.shields.io/codecov/c/github/micheleriva/mjn.svg?style=flat-square)](https://codecov.io/gh/micheleriva/mjn)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![blazing fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)
+[![Library size](https://img.shields.io/bundlephobia/minzip/mjn.svg?style=flat-square)](https://bundlephobia.com/result?p=mjn@latest)
+
+# Index
+
+[Installation](#installation)
+[Usage](#usage)
+
+- [Simple Example](#simple-example)
+- [Real World React Example](#real-world-react-example)
+  [License](#license)
 
 # Installation
 
