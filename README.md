@@ -21,6 +21,82 @@ yarn add mjn
 npm install --save mjn
 ```
 
+**cdn**
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/mjn@latest/dist/dist.min.js"></script>
+```
+
+# Usage
+
+### Simple Example
+
+```js
+import mjn from "mjn"; // Or import the library as you wish using npm or CDN script tag!
+
+const myObject = {
+  user: {
+    name: "John",
+    surname: "Doe",
+    birthday: "1995-01-29",
+    contacts: {
+      email: "foo@bar.com",
+      phone: "000 0000000"
+    },
+    languages: ["english", "italian"]
+  }
+};
+
+const a = mjn(myObject, "user.name"); // => John
+const b = mjn(myObject, "languages[1]"); // => italian
+const c = mjn(myObject, "foo.bar.baz"); // => undefined
+
+if (a) {
+  console.log(a); // => John
+}
+
+if (b) {
+  console.log(b); // => italian
+}
+
+if (c) {
+  console.log(c); // => won't log anything!
+}
+```
+
+### Real World React Example
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import Nil from "epk-nil";
+
+const user = {
+  name: {
+    first_name: "John",
+    last_name: "Doe"
+  },
+  contacts: {
+    phone: "+00 000 0000000",
+    email: "john@doe.do"
+  }
+};
+
+const App = () => (
+  <div className="App">
+    <h1>Hello {Nil(user, "name.first_name")}!</h1>
+    <h2> {Nil(user, "contacts.email")} </h2>
+
+    <p>
+      {Nil(user, "contacts.phone.office") || "You don't have an office phone."}
+    </p>
+  </div>
+);
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+```
+
 # License
 
 [MIT](/LICENSE.md)
