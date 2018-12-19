@@ -18,7 +18,7 @@ Simple pseudo-monad to check if a value exists in an object.
     <img src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=for-the-badge" alt="Blazing Fast" />
   </a>
   <a href="https://bundlephobia.com/result?p=mjn@latest">
-    <img src="https://img.shields.io/bundlephobia/minzip/mjn.svg?style=flat-square" />
+    <img src="https://img.shields.io/bundlephobia/minzip/mjn.svg?style=for-the-badge" />
   </a>
 </p>
 
