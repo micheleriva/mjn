@@ -8,7 +8,9 @@
 [![blazing fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)
 [![Library size](https://img.shields.io/bundlephobia/minzip/mjn.svg?style=flat-square)](https://bundlephobia.com/result?p=mjn@latest)
 
-<img src="/docs/mjn.png" style="margin: auto" />
+<div style="text-align:center">
+  <img src="/docs/mjn.png" style="margin: auto" />
+</div>
 
 > No `cannot get property x of undefined`. Just returns `void 0` (undefined) if a value or a key does not exist. Highly inspired from Java's Optional Type.
 
