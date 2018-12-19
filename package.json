@@ -24,7 +24,9 @@
     "monad",
     "undefined behaviour",
     "exception handler",
-    "object"
+    "object",
+    "error handling",
+    "null exception"
   ],
   "scripts": {
     "build": "rollup -c",
