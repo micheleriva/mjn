@@ -143,10 +143,12 @@ ReactDOM.render(<App />, rootElement);
 
 ### React.js
 
+[![React Example](/docs/react.png)](https://codesandbox.io/s/l71m022x99)
 [![Edit l71m022x99](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/l71m022x99)
 
 ### Vue.js
 
+[![Vue Example](/docs/vue.png)](https://codesandbox.io/s/6j7438n7rr?module=%2Fsrc%2Fcomponents%2FHelloWorld.vue)
 [![Edit Vue Template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/6j7438n7rr?module=%2Fsrc%2Fcomponents%2FHelloWorld.vue)
 
 # License
