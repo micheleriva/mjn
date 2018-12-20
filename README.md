@@ -36,6 +36,7 @@ Simple pseudo-monad to check if a key or a value exists in an object.
 - [Usage](#usage)
   - [Simple Example](#simple-example)
   - [Real World React Example](#real-world-react-example)
+- [Demos](#demos)
 - [License](#license)
 
 # Installation
@@ -137,6 +138,16 @@ const App = () => (
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
+
+# Demos
+
+### React.js
+
+[![Edit l71m022x99](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/l71m022x99)
+
+### Vue.js
+
+[![Edit Vue Template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/6j7438n7rr?module=%2Fsrc%2Fcomponents%2FHelloWorld.vue)
 
 # License
 
