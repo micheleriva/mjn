@@ -78,9 +78,11 @@ const myObject = {
   }
 };
 
-const a = maybe(myObject, "user.name"); // => John
-const b = maybe(myObject, "user.languages[1]"); // => italian
+const a = maybe(myObject, "user.name"); // => "John"
+const b = maybe(myObject, "user.languages[1]"); // => "italian"
 const c = maybe(myObject, "foo.bar.baz"); // => undefined
+const d = maybe(myObject, "foo.bar.baz", "no value!") // => "no value!"
+condt e = maybe(myObject, "foo.bar.baz", () => "I can be a function!") // "I can be a function!"
 
 if (a) {
   console.log(a); // => John
@@ -93,6 +95,15 @@ if (b) {
 if (c) {
   console.log(c); // => won't log anything!
 }
+
+if (d) {
+  console.log(d); // => "no value!"
+}
+
+if (e) {
+  console.log(e); // => "I can be a function!"
+}
+
 ```
 
 ### Real World React Example
@@ -119,8 +130,7 @@ const App = () => (
     <h2> {maybe(user, "contacts.email")} </h2>
 
     <p>
-      {maybe(user, "contacts.phone.office") ||
-        "You don't have an office phone."}
+      {maybe(user, "contacts.phone.office", "You don't have an office phone.")}
     </p>
   </div>
 );
