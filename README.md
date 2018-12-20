@@ -78,11 +78,11 @@ const myObject = {
   }
 };
 
-const a = maybe(myObject, "user.name"); // => "John"
-const b = maybe(myObject, "user.languages[1]"); // => "italian"
-const c = maybe(myObject, "foo.bar.baz"); // => undefined
-const d = maybe(myObject, "foo.bar.baz", "no value!") // => "no value!"
-condt e = maybe(myObject, "foo.bar.baz", () => "I can be a function!") // "I can be a function!"
+const a = maybe(myObject, "user.name");
+const b = maybe(myObject, "user.languages[1]");
+const c = maybe(myObject, "foo.bar.baz");
+const d = maybe(myObject, "foo.bar.baz", "no value!");
+const e = maybe(myObject, "foo.bar.baz", () => "I can be a function!");
 
 if (a) {
   console.log(a); // => John
@@ -103,7 +103,6 @@ if (d) {
 if (e) {
   console.log(e); // => "I can be a function!"
 }
-
 ```
 
 ### Real World React Example
