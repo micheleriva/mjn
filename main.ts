@@ -22,7 +22,7 @@ function handleFallback(val: any): Just {
  * @method mjn
  * @param {any} obj
  * @param {String} path
- * @param {any} path
+ * @param {any} fallback
  * @returns {any}
  */
 
