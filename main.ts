@@ -7,7 +7,7 @@ function Nothing(): Nothing {
 }
 
 function Just(value: any): Just {
-  return value === null ? Nothing() : value;
+  return value === undefined ? Nothing() : value;
 }
 
 function handleFallback(val: any): Just {
