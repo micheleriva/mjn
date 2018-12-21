@@ -1,16 +1,16 @@
 type Nothing = void;
-type Just = any;
-type Maybe = Just | Nothing;
+type Just<T = unknown> = T;
+type Maybe<T = unknown> = Just<T> | Nothing;
 
 function Nothing(): Nothing {
   return void 0;
 }
 
-function Just(value: any): Just {
+function Just<T = unknown>(value: any): Just<T> {
   return value === undefined ? Nothing() : value;
 }
 
-function handleFallback(val: any): Just {
+function handleFallback<T = unknown>(val: unknown): Just<T> {
   return typeof val === "undefined"
     ? Nothing()
     : typeof val === "function"
@@ -26,7 +26,7 @@ function handleFallback(val: any): Just {
  * @returns {any}
  */
 
-function mjn(obj: any, path: string, fallback: any): Maybe {
+function mjn<T = any>(obj: any, path: string, fallback?: T): Maybe<T> {
   const arrToPath: any[] = path
     .replace(/\[(\w+)\]/g, ".$1")
     .replace(/^\./, "")
@@ -40,7 +40,7 @@ function mjn(obj: any, path: string, fallback: any): Maybe {
         return handleFallback(fallback);
       }
     }
-    return Just(obj);
+    return Just<T>(obj);
   } catch (err) {
     return handleFallback(fallback);
   }
