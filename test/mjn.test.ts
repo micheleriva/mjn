@@ -54,7 +54,8 @@ const ComplexObject = {
       },
       and: {
         useless: "values"
-      }
+      },
+      wat: undefined
     }
   }
 };
@@ -68,6 +69,7 @@ test("Testing MJN on a complex object", () => {
     mjn(ComplexObject, "matrix[2][1][10][100].foo.bar.baz")
   ).toBeUndefined();
   expect(mjn(ComplexObject, "matrix.idonotexist")).toBeUndefined();
+  expect(mjn(ComplexObject, "nested.object.wat")).toBeUndefined();
   expect(mjn(ComplexObject, "matrix[0][1]")).toBe(2);
   expect(mjn(ComplexObject, "matrix[1][0]")).toBe(4);
   expect(mjn(ComplexObject, "matrix[1][2]")).toBe(6);
