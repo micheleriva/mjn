@@ -1,4 +1,6 @@
-<h1 align="center"> ⚡️ MJN ⚡️ </h1>
+<div align="center">
+  <img src="/docs/logo.png">
+</div>
 
 <h6 align="center">
 Simple pseudo-monoid to check if a key or a value exists in an object.
