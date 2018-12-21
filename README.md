@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/docs/logo.png">
+  <img src="/docs/mjn_logo.png" width="250px">
 </div>
 
 <h6 align="center">
