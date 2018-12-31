@@ -1,21 +1,39 @@
-import typescript from "rollup-plugin-typescript";
-import { uglify } from "rollup-plugin-uglify";
+import typescript from "rollup-plugin-typescript2";
+import { terser } from "rollup-plugin-terser";
 
 export default [
   {
     input: "./main.ts",
 
-    output: {
-      name: "dist",
-      format: "umd",
-      file: "dist.js",
-      dir: "./dist"
-    },
+    output: [
+      {
+        file: "dist/main.esm.js",
+        format: "esm",
+        name: "dist/main.esm.js"
+      }
+    ],
 
     watch: {
       exclude: ["node_modules/**"]
     },
 
-    plugins: [typescript(), uglify()]
+    plugins: [typescript(), terser()]
+  },
+  {
+    input: "./main.ts",
+
+    output: [
+      {
+        file: "dist/main.js",
+        format: "umd",
+        name: "dist/main.js"
+      }
+    ],
+
+    watch: {
+      exclude: ["node_modules/**"]
+    },
+
+    plugins: [typescript(), terser()]
   }
 ];
