@@ -1,6 +1,6 @@
 {
   "name": "mjn",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Simple pseudo-monoid to check if a key or a value exists in an object.",
   "main": "./dist/main.js",
   "module": "./dist/main.esm.js",
