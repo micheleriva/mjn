@@ -8,7 +8,7 @@ Simple pseudo-monoid to check if a key or a value exists in an object.
 
 <p align="center">
   <a href="https://travis-ci.org/micheleriva/mjn">
-    <img src="https://img.shields.io/travis-ci/micheleriva/mjn.svg?style=for-the-badge" alt="Build Status" />
+    <img src="https://img.shields.io/travis/micheleriva/mjn.svg?style=for-the-badge" alt="Build Status" />
   </a>
   <a href="https://codecov.io/gh/micheleriva/mjn">
     <img src="https://img.shields.io/codecov/c/github/micheleriva/mjn.svg?style=for-the-badge" alt="Coverage" />
