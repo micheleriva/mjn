@@ -33,9 +33,11 @@ function mjn<T = any>(obj: any, path: string, fallback?: T): Maybe<T> {
     .split(".");
 
   try {
-    for (let index of arrToPath) {
-      if (index in obj) {
-        obj = obj[index];
+    let i = 0;
+    while (i < arrToPath.length) {
+      if (arrToPath[i] in obj) {
+        obj = obj[arrToPath[i]];
+        i++;
       } else {
         return handleFallback(fallback);
       }
