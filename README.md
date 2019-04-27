@@ -35,6 +35,14 @@ Simple pseudo-monoid to check if a key or a value exists in an object.
   <img src="/docs/mjn.png" align="center" style="max-width:80%;" />
 </div>
 
+<br />
+
+<div align="center">
+  <a href="https://www.patreon.com/bePatron?u=18151636" data-patreon-widget-type="become-patron-button" align="center">
+    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" align="center"/>
+  </a>
+</div>
+
 <br /><br />
 
 > No `cannot get property x of undefined`. Just returns `void 0` (undefined) if a value or a key does not exist. Highly inspired from Java's Optional Type.
