@@ -3,7 +3,7 @@
 </div>
 
 <h6 align="center">
-Simple pseudo-monoid to check if a key or a value exists in an object.
+Simple utility to check if a key or a value exists in an object.
 </h6>
 
 <p align="center">
