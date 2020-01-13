@@ -102,25 +102,12 @@ const c = maybe(myObject, "foo.bar.baz");
 const d = maybe(myObject, "foo.bar.baz", "no value!");
 const e = maybe(myObject, "foo.bar.baz", () => "I can be a function!");
 
-if (a) {
-  console.log(a); // => John
-}
 
-if (b) {
-  console.log(b); // => italian
-}
-
-if (c) {
-  console.log(c); // => won't log anything!
-}
-
-if (d) {
-  console.log(d); // => "no value!"
-}
-
-if (e) {
-  console.log(e); // => "I can be a function!"
-}
+console.log(a); // => John
+console.log(b); // => italian
+console.log(c); // => won't log anything!
+console.log(d); // => "no value!"
+console.log(e); // => "I can be a function!"
 ```
 
 ### Real World React Example
