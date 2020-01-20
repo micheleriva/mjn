@@ -1,33 +1,43 @@
 {
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "commit": false,
-  "contributors": [
-    {
-      "login": "equinusocio",
-      "name": "Mattia Astorino",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/10454741?v=4",
-      "profile": "https://equinusocio.dev",
-      "contributions": [
-        "design"
-      ]
-    },
-    {
-      "login": "OctoD",
-      "name": "Paolo Roth",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/2328211?v=4",
-      "profile": "https://www.iamoctod.com/",
-      "contributions": [
-        "code"
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "mjn",
-  "projectOwner": "micheleriva",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+   "files":[
+      "README.md"
+   ],
+   "imageSize":100,
+   "commit":false,
+   "contributors":[
+      {
+         "login":"equinusocio",
+         "name":"Mattia Astorino",
+         "avatar_url":"https://avatars0.githubusercontent.com/u/10454741?v=4",
+         "profile":"https://equinusocio.dev",
+         "contributions":[
+            "design"
+         ]
+      },
+      {
+         "login":"micheleriva",
+         "name":"Michele Riva",
+         "avatar_url":"https://avatars0.githubusercontent.com/u/14977595?v=4",
+         "profile":"https://www.micheleriva.it",
+         "contributions":[
+            "code",
+            "business"
+         ]
+      },
+      {
+         "login":"OctoD",
+         "name":"Paolo Roth",
+         "avatar_url":"https://avatars2.githubusercontent.com/u/2328211?v=4",
+         "profile":"https://www.iamoctod.com/",
+         "contributions":[
+            "code"
+         ]
+      }
+   ],
+   "contributorsPerLine":7,
+   "projectName":"mjn",
+   "projectOwner":"micheleriva",
+   "repoType":"github",
+   "repoHost":"https://github.com",
+   "skipCi":true
 }
