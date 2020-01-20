@@ -172,8 +172,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://equinusocio.dev"><img src="https://avatars0.githubusercontent.com/u/10454741?v=4" width="100px;" alt=""/><br /><sub><b>Mattia Astorino</b></sub></a><br /><a href="#design-equinusocio" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.micheleriva.it"><img src="https://avatars0.githubusercontent.com/u/14977595?v=4" width="100px;" alt=""/><br /><sub><b>Michele Riva</b></sub></a><br /><a href="https://github.com/micheleriva/mjn/commits?author=micheleriva" title="Code">💻</a> <a href="#business-micheleriva" title="Business development">💼</a></td>
+    <td align="center"><a href="https://www.iamoctod.com/"><img src="https://avatars2.githubusercontent.com/u/2328211?v=4" width="100px;" alt=""/><br /><sub><b>Paolo Roth</b></sub></a><br /><a href="https://github.com/micheleriva/mjn/commits?author=OctoD" title="Code">💻</a></td>
+    <td align="center"><a href="https://equinusocio.dev"><img src="https://avatars0.githubusercontent.com/u/10454741?v=4" width="100px;" alt=""/><br /><sub><b>Mattia Astorino</b></sub></a><br /><a href="#design-equinusocio" title="Design">🎨</a></td>
   </tr>
 </table>
 
