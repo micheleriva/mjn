@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "equinusocio",
+      "name": "Mattia Astorino",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10454741?v=4",
+      "profile": "https://equinusocio.dev",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "mjn",
+  "projectOwner": "micheleriva",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
