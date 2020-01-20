@@ -163,10 +163,6 @@ ReactDOM.render(<App />, rootElement);
 [![Vanilla JS](/docs/vanillajs.png)](https://codesandbox.io/s/30w08xl6wq?module=%2Fsrc%2Findex.js)
 [![Vanilla JS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/30w08xl6wq?module=%2Fsrc%2Findex.js)
 
-# License
-
-[MIT](/LICENSE.md)
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -185,3 +181,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+# License
+
+[MIT](/LICENSE.md)
