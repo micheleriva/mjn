@@ -1,7 +1,7 @@
 {
   "name": "mjn",
-  "version": "0.2.2",
-  "description": "Simple pseudo-monoid to check if a key or a value exists in an object.",
+  "version": "0.2.4",
+  "description": "Simple utility to check if a key or a value exists in an object.",
   "main": "./dist/main.js",
   "module": "./dist/main.esm.js",
   "types": "./dist/main.d.ts",
@@ -23,18 +23,18 @@
     "url": "https://github.com/micheleriva/mjn/issues"
   },
   "keywords": [
-    "monad",
-    "monoid",
     "undefined behaviour",
     "exception handler",
     "object",
     "error handling",
-    "null exception"
+    "null exception",
+    "get",
+    "path"
   ],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "test": "jest",
+    "test": "jest --coverage -- --watch",
     "lint": "./node_modules/.bin/eslint ./main.ts",
     "prettier-watch": "onchange '**/*.ts' -- prettier --write {{changed}}"
   },
@@ -76,12 +76,13 @@
     "lint-staged": "8.1.0",
     "onchange": "5.2.0",
     "prettier": "1.15.3",
+    "rollup": "^1.0.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-terser": "^3.0.0",
     "rollup-plugin-typescript2": "^0.18.1",
     "rollup-watch": "4.3.1",
     "ts-jest": "22.4.6",
     "typescript": "3.1.1",
-    "typescript-eslint-parser": "21.0.2",
-    "rollup": "^1.0.0",
-    "rollup-plugin-terser": "^3.0.0"
+    "typescript-eslint-parser": "21.0.2"
   }
 }

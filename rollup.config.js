@@ -1,4 +1,5 @@
 import typescript from "rollup-plugin-typescript2";
+import bundleSize from "rollup-plugin-bundle-size";
 import { terser } from "rollup-plugin-terser";
 
 export default [
@@ -17,7 +18,7 @@ export default [
       exclude: ["node_modules/**"]
     },
 
-    plugins: [typescript(), terser()]
+    plugins: [typescript(), terser(), bundleSize()]
   },
   {
     input: "./main.ts",
@@ -34,6 +35,6 @@ export default [
       exclude: ["node_modules/**"]
     },
 
-    plugins: [typescript(), terser()]
+    plugins: [typescript(), terser(), bundleSize()]
   }
 ];
