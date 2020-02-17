@@ -31,7 +31,7 @@ function mjn<T = any>(obj: any, path: string, fallback?: T): Maybe<T> {
       }
     }
     return obj === undefined ? void 0 : obj;
-  } catch (err) {
+  } catch (_) {
     return handleFallback(fallback);
   }
 }
