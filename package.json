@@ -1,6 +1,6 @@
 {
   "name": "mjn",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Simple utility to check if a key or a value exists in an object.",
   "main": "./dist/main.js",
   "module": "./dist/main.esm.js",
@@ -34,7 +34,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "test": "jest --coverage -- --watch",
+    "test": "jest --coverage",
     "lint": "./node_modules/.bin/eslint ./main.ts",
     "prettier-watch": "onchange '**/*.ts' -- prettier --write {{changed}}"
   },
