@@ -39,8 +39,13 @@ Simple utility to check if a key or a value exists in an object.
 <br />
 
 <div align="center">
-  <a href="https://www.patreon.com/bePatron?u=18151636" data-patreon-widget-type="become-patron-button" align="center">
-    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" align="center"/>
+  <a href="https://graphcms.com?utm_source=https://github.com/micheleriva/krabs">
+    <img src="/docs/sponsor-graphcms.svg" alt="GraphCMS" target="_blank" width="250px" />
+  </a>
+
+  <br />
+  <a align="center" href="https://github.com/sponsors/micheleriva" target="_blank">
+    <b>Become a sponsor</b>
   </a>
 </div>
 
