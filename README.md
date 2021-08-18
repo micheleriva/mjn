@@ -38,6 +38,8 @@ Simple utility to check if a key or a value exists in an object.
 
 <br />
 
+# Sponsors
+
 <div align="center">
   <a href="https://graphcms.com?utm_source=https://github.com/micheleriva/krabs">
     <img src="/docs/sponsor-graphcms.svg" alt="GraphCMS" target="_blank" width="250px" />
