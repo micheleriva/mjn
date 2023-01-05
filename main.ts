@@ -15,10 +15,33 @@ function handleFallback<T = unknown>(val: unknown): Just<T> {
  */
 
 function mjn<T = any>(obj: any, path: string, fallback?: T): Maybe<T> {
-  const arrToPath: any[] = path
-    .replace(/\[(\w+)\]/g, ".$1")
-    .replace(/^\./, "")
-    .split(".");
+  // Initialize an empty array to hold the path segments
+  const arrToPath: any[] = [];
+  // Initialize a string to hold the current segment
+  let segment = "";
+
+  // Loop through the characters in the path string
+  for (let i = 0; i < path.length; i++) {
+    const c = path[i];
+    // If the character is a '.' or a '['
+    if (c === "." || c === "[") {
+      // If the segment is not empty, add it to the array
+      if (segment !== "") arrToPath.push(segment);
+      // Reset the segment
+      segment = "";
+    } else if (c === "]") {
+      // If the character is a ']', add the segment to the array
+      arrToPath.push(segment);
+      // Reset the segment
+      segment = "";
+    } else {
+      // Otherwise, append the character to the segment
+      segment += c;
+    }
+  }
+
+  // If the segment is not empty, add it to the array
+  if (segment !== "") arrToPath.push(segment);
 
   try {
     let i = 0;
